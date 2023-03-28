@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="150" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="120">
+ <tileset firstgid="1" name="TileSet" tilewidth="16" tileheight="16" tilecount="50160" columns="330">
+  <image source="tilesets/TileSet.png" width="5280" height="2432"/>
+ </tileset>
+ <layer id="1" name="background" width="150" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2cW07DMBBFHWAvfLRLAKR+sw/YH2VblLIDbBWrCGiD47n163wcRarUK1tzFDkTx3vn3A7AkA/PanLuxV+3hrx6Nu6Qe3sDo7GeDl6Fq2VuyAxeWedCG+AVKMArUBC9estYn/2Vi1djE73auGWc8gavxgavQAFegQK8AgV4BQrwChTgFSjAK1CAV6AAr0BBT17l7PUJ+3pK16InoldLa/J8Ya/CO0kf6a481+73XJbmrrivSrxqZT/Dnc+8/+IBr6qlNa/m5pIz3tK16Am8Oo63dC16Aq+O4y1dixwejZ47rHJq9Or7unyXME+8qienRq/Orc3n5pIz3tJu1OCDyqu9s/l+7H2mv6UAr+rJ+elVTo80pW+KV2N59TTZfp96qm+KV2N5VTPneu1xLkuze/DKitG8mlvPj+xVbbTk1X/msvS/eGVfC7zCK0UtLumV9bk1Vs8IeNW2V7XeF/HKvs455zOkntuAV2MQvVLkpvxempS+XemxtgBegQK8AgV4BQrwChSEOlu/awYIvcRPKb0v+cBdAAA=
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="150" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3WMQ6DMBBFQW7H/W+UIkqTIojgj3fNjOR2DfZTwr5t225ZgZWQmntm/9nP8FS6IkFXJOiKBF2RkPzen32nuppHVyToigRdkaArEnRFwspdMY+uSNAVCboiYaWuku/COckz1dVzdevqVwu6qqNbV0f76aoGXekqQVdrdDXq+UfO0ZWuEnOqdfXvfeuq1pxqXV3ZT1d15nzPuno/s+6q07OO1qGrrnRVa073M/14eleV/mM6nenR+1c4T95WOlNd1bHSmeqqjrvPdOR3wOjFOLrSVYKudJVw9x3Nbkd/9/B7pasEXekqQVe6StCVrhJm35G17noBD5VUxsBdAAA=
+  </data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="6" name="Player" class="Player" x="1141.79" y="497.775" width="32" height="32">
+   <properties>
+    <property name="Type" value="Player"/>
+   </properties>
+  </object>
+  <object id="71" name="MagicBook" class="MagicBook" x="1373.63" y="568.376" width="13" height="15">
+   <properties>
+    <property name="Type" value="MagicBook"/>
+   </properties>
+  </object>
+  <object id="75" name="MagicStick" class="MagicStick" x="1310.16" y="539.666" width="14" height="31">
+   <properties>
+    <property name="Type" value="MagicStick"/>
+   </properties>
+  </object>
+  <object id="82" name="OrcArcher" class="EnemyArcher" x="1950.45" y="369.318" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyArcher"/>
+   </properties>
+  </object>
+  <object id="93" name="LeverDoor1" class="Lever" x="512" y="483" width="19" height="13">
+   <properties>
+    <property name="Type" value="Lever"/>
+   </properties>
+  </object>
+  <object id="94" name="Door1" class="Door" x="864" y="196" width="32" height="64">
+   <properties>
+    <property name="Type" value="Door"/>
+   </properties>
+  </object>
+  <object id="97" name="TorchLight1" class="TorchLight" x="280" y="32" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="99" name="TorchLight2" class="TorchLight" x="280" y="186" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="100" name="TorchLight3" class="TorchLight" x="280" y="326" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="101" name="TorchLight4" class="TorchLight" x="140" y="326" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="102" name="TorchLight5" class="TorchLight" x="96" y="488" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="103" name="TorchLight6" class="TorchLight" x="280" y="488" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="104" name="TorchLight7" class="TorchLight" x="528" y="432" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="105" name="TorchLight8" class="TorchLight" x="582" y="304" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="106" name="TorchLight9" class="TorchLight" x="960" y="192" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="107" name="TorchLight10" class="TorchLight" x="1142" y="482" width="32" height="32">
+   <properties>
+    <property name="Type" value="TorchLight"/>
+   </properties>
+  </object>
+  <object id="109" name="OrcRogue" class="EnemyRogue" x="1907.65" y="553.334" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyRogue"/>
+   </properties>
+  </object>
+  <object id="110" name="SkeletonArcher" class="EnemyArcher" x="1871.66" y="359.001" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyArcher"/>
+   </properties>
+  </object>
+  <object id="111" name="SkeletonRogue" class="EnemyRogue" x="2020.01" y="359.001" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyRogue"/>
+   </properties>
+  </object>
+  <object id="112" name="OrcShaman" class="EnemyShaman" x="1919.67" y="381.333" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyShaman"/>
+   </properties>
+  </object>
+  <object id="114" name="OrcWarrior" class="EnemyWarrior" x="1855.32" y="386.667" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyWarrior"/>
+   </properties>
+  </object>
+  <object id="116" name="SkeletonShaman" class="EnemyShaman" x="1927.01" y="353.334" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyShaman"/>
+   </properties>
+  </object>
+  <object id="117" name="SkeletonWarrior" class="EnemyWarrior" x="1929.67" y="380.333" width="32" height="32">
+   <properties>
+    <property name="Type" value="EnemyWarrior"/>
+   </properties>
+  </object>
+  <object id="118" name="BigHealPotion" class="HealPotion" x="189.71" y="71.9275" width="12" height="14">
+   <properties>
+    <property name="Type" value="HealPotion"/>
+   </properties>
+  </object>
+  <object id="119" name="SmallHealPotion" class="HealPotion" x="229.375" y="76.375" width="8" height="13">
+   <properties>
+    <property name="Type" value="HealPotion"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
